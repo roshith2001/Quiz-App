@@ -1,0 +1,27 @@
+@media screen and (min-width: 900px){
+
+#container{
+    justify-content: space-around;
+}
+section{
+    max-width: 49%;
+    height: 0%;
+}
+#question img{
+    max-height: 30%;
+}
+#nav{
+    display: none;
+}
+#controls{
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#navbtn{
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+}
