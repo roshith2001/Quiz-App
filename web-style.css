@@ -3,6 +3,10 @@
 #container{
     justify-content: space-around;
 }
+.start{
+    width: 100%;
+    max-width: 100%;
+}
 section{
     max-width: 49%;
     height: 0%;

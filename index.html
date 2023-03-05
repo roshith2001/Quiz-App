@@ -9,8 +9,11 @@
     <link href="web-style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+    <section class="start" id="start">
+        <button id="btnstrt">Start</button>
+    </section>
     <section id="container">
-        <section id="question">
+        <section id="question" class="hide">
             <img src="https://media.cntraveler.com/photos/5eb18e42fc043ed5d9779733/master/pass/BlackForest-Germany-GettyImages-147180370.jpg"
                 alt="Question's Image">
                 <h1 id="brief_question">Place Holder Question?</h1>
@@ -25,10 +28,10 @@
             <h1 id="brief_answer">Place Holder</h1>
                 <p id="real_question">What is your real full name?</p>
                 <div id="btn_class">
-                    <button id="ans_btn1">Option 1</button>
-                    <button id="ans_btn2">Option 2</button>
-                    <button id="ans_btn3">Option 3</button>
-                    <button id="ans_btn4">Option 4</button>
+                    <button class="button" id="ans_btn1">Option 1</button>
+                    <button class="button" id="ans_btn2">Option 2</button>
+                    <button class="button" id="ans_btn3">Option 3</button>
+                    <button class="button" id="ans_btn4">Option 4</button>
                 </div>
                 <div id="controls">
                     <div id="navbtn">
@@ -36,17 +39,18 @@
                         <h1 id="time">12:43</h1>
                         <button id="nxt_btn">Next</button>
                     </div>
-                    <button id="finish">Finish</button>
+                    <button class="finish" id="finish">Finish</button>
                 </div>
         </section>
         <section id="nav">
             <div id="navbtn">
-                <button id="prv_btn">Previous</button>
+                <button id="prv_btnM">Previous</button>
                 <h1 id="time">12:43</h1>
-                <button id="nxt_btn">Next</button>
+                <button id="nxt_btnM">Next</button>
             </div>
-            <button id="finish">Finish</button>
+            <button class="finish" id="finishM">Finish</button>
         </section>
     </section>
+<script src="script.js"></script>
 </body>
 </html>
